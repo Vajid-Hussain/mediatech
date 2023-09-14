@@ -1,0 +1,112 @@
+:root{
+    --sub-head-color:#FFA500;
+}
+
+/* nav */
+.nav-link{
+    color: white !important;
+}
+/* carousel */
+.carousel-main-head{
+    font-size: 240%;
+    font-weight: 550;
+    color: white;
+}
+.carousel-sub-head{
+    font-size: 130%;
+    font-weight: 500;
+    color: white;
+}
+.carousel-text{
+    bottom: 30%;
+    left: 15%;
+    text-align: left;
+    
+}
+
+
+.section-text{
+    padding-top:10%;
+}
+.mobile-carosol{
+    display: none;
+    object-fit: cover;
+}
+@media (width<876px){
+    .carousel-main-head{
+        font-size: 200%;
+        font-weight: 400;
+    }
+    .carousel-sub-head{
+        font-size: 110%;
+        font-weight: 300;
+    }
+    .carousel-text{
+        bottom: 20%;
+        left: 10%;
+    }
+}
+
+@media (width<576px) {
+    .windows-carosol{
+        display: none;
+    }
+    .mobile-carosol{
+        display: unset;
+    }
+    .carousel-main-head{
+        font-size: 200%;
+        font-weight: 450;
+    }
+    .carousel-sub-head{
+        font-size: 100%;
+        font-weight: 300;
+    }
+    .carousel-text{
+        top: 10%;
+        left: 15%;
+        text-align: center;
+    }
+}
+
+
+
+.sub-head{
+    font-size:medium ;
+    font-weight: 700;
+    color: var(--sub-head-color);
+}
+.section-content{
+    font-size: large;
+    font-weight: 450;
+}
+
+/* last section with 3 child */
+
+.last-section-main-head{
+    color: var(--sub-head-color);
+}
+.last-section-link{
+    text-decoration: none;
+    color: black;
+    font-size: large;
+    font-weight: 700;
+}
+
+/* footer */
+
+footer{
+    color: white;
+    background-color: rgb(36, 42, 44);
+}
+
+.footer-text{
+    font-size: small;
+    font-weight: 300;
+    margin-bottom: 0;
+}
+.footer-head{
+    font-weight: 700;
+    font-size: large;
+}
+
